@@ -18,3 +18,4 @@ Contains
 - Markdown support
 
 - Railscasts colorscheme
+- Better fullscreen support
