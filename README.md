@@ -15,3 +15,6 @@ Contains
 --------
 
 - Haml/Sass support
+- Markdown support
+
+- Railscasts colorscheme
