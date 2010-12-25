@@ -18,6 +18,7 @@ Contains
 - Markdown support
 
 - Lusty Explorer with additional shortcuts
+- Fuzzy finder
 
 - Railscasts colorscheme
 - Better fullscreen support
