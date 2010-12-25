@@ -1,12 +1,16 @@
-" Lustfy file explorer shortcuts
-command LB   :LustyFilesystemExplorer
-command LF   :LustyFilesystemExplorer 
-command LFEH :LustyFilesystemExplorerFromHere 
-command LBG  :LustyBufferGrep 
-
-" Fuzzy finder shortcuts
-command FF :FuzzyFinderTextMate<Enter>
-
 " Editor settings
 set number
 set hidden
+
+if has("autocmd")
+  autocmd bufWritePost .vimrc source $MYVIMRC
+endif
+
+" Lusty file explorer shortcuts
+nmap <leader>b :LustyBufferExplorer<CR>
+nmap <leader>f :LustyFilesystemExplorer<CR>
+nmap <leader>fh :LustyFilesystemExplorerFromHere<CR>
+nmap <leader>bg :LustyBufferGrep<CR>
+
+" Fuzzy finder shortcuts
+nmap <leader>ff :FuzzyFinderTextMate<CR>

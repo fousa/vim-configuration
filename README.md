@@ -23,3 +23,5 @@ Contains
 - Railscasts colorscheme
 - Idle Fingers colorscheme
 - Better fullscreen support
+
+- Sessions uses the .vimrc file when saved
