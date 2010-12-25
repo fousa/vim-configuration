@@ -17,5 +17,7 @@ Contains
 - Haml/Sass support
 - Markdown support
 
+- Lusty Explorer with additional shortcuts
+
 - Railscasts colorscheme
 - Better fullscreen support
