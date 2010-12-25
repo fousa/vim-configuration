@@ -1,7 +1,7 @@
 if has("gui_running")
  set guioptions=egmrt
 
- colorscheme railscasts 
+ colorscheme idle-fingers 
  set guifont=Inconsolata:h15
 
  " decent full screen support

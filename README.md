@@ -21,4 +21,5 @@ Contains
 - Fuzzy finder
 
 - Railscasts colorscheme
+- Idle Fingers colorscheme
 - Better fullscreen support
