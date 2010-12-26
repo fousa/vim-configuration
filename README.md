@@ -25,3 +25,4 @@ Contains
 - Better fullscreen support
 
 - Sessions uses the .vimrc file when saved
+- Change the invisibles to be more TextMate like
