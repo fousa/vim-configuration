@@ -26,3 +26,4 @@ Contains
 
 - Sessions uses the .vimrc file when saved
 - Change the invisibles to be more TextMate like
+- Strip trailing white spaces function

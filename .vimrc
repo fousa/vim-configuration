@@ -30,3 +30,17 @@ nmap <leader>bg :LustyBufferGrep<CR>
 
 " Fuzzy finder shortcuts
 nmap <leader>ff :FuzzyFinderTextMate<CR>
+
+" Strip trailing white spaces
+function! <SID>StripTrailingWhitespaces()
+    " Preparation: save last search, and cursor position.
+    let _s=@/
+    let l = line(".")
+    let c = col(".")
+    " Do the business:
+    %s/\s\+$//e
+    " Clean up: restore previous search history, and cursor position
+    let @/=_s
+    call cursor(l, c)
+endfunction
+map <leader>strip :call <SID>StripTrailingWhitespaces()<CR>
