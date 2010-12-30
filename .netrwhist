@@ -1,9 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/jelle/.vim'
-let g:netrw_dirhist_2='/Users/jelle/.vim/ftplugin'
-let g:netrw_dirhist_3='/Users/jelle/.vim'
-let g:netrw_dirhist_4='/Users/jelle/.vim/plugin'
-let g:netrw_dirhist_5='/Users/jelle/.vim'
-let g:netrw_dirhist_6='/Users/jelle/.vim/tests'
-let g:netrw_dirhist_7='/Users/jelle/.vim'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/jelle/Sites/10to1/besix-web'
+let g:netrw_dirhist_2='/Users/jelle/Sites/10to1/besix-web/app'
+let g:netrw_dirhist_3='/Users/jelle/Sites/10to1/besix-web/app/models'

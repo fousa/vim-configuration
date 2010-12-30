@@ -23,10 +23,10 @@ endif
 let mapleader = ";"
 
 " Lusty file explorer shortcuts
-nmap <leader>b :LustyBufferExplorer<CR>
-nmap <leader>f :LustyFilesystemExplorer<CR>
-nmap <leader>fh :LustyFilesystemExplorerFromHere<CR>
-nmap <leader>bg :LustyBufferGrep<CR>
+command! B  :LustyBufferExplorer
+command! F  :LustyFilesystemExplorer
+command! FH :LustyFilesystemExplorerFromHere
+command! BG :LustyBufferGrep
 
 " Fuzzy finder shortcuts
 nmap <leader>ff :FuzzyFinderTextMate<CR>
