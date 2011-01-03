@@ -19,6 +19,7 @@ Contains
 
 - Lusty Explorer with additional shortcuts
 - Fuzzy finder
+- Ack support (find in project)
 
 - Railscasts colorscheme
 - Idle Fingers colorscheme
