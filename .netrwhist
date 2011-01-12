@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/jelle/Sites/10to1'
-let g:netrw_dirhist_2='/Users/jelle/Sites/10to1/10to1.github.com'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/jelle/Sites/Rails Playground/handlers'
+let g:netrw_dirhist_2='/Users/jelle/Sites/Rails Playground'
+let g:netrw_dirhist_3='/Users/jelle/Library/Application Support/Lighthouse_Keeper/Themes/JELLE.lhktheme'
+let g:netrw_dirhist_4='/Users/jelle/Sites/10to1/menerga/app/views/interventions'
+let g:netrw_dirhist_5='/Users/jelle/Sites/10to1/menerga/app/views/admin/factors'
+let g:netrw_dirhist_6='/Users/jelle/Sites/10to1/menerga/app/views/admin/users'
+let g:netrw_dirhist_7='/Users/jelle/Sites/10to1/menerga/lib/tasks'

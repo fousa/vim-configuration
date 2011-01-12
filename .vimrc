@@ -1,3 +1,6 @@
+" Not VI compatible
+set nocompatible
+
 " Editor settings
 set number
 set hidden
@@ -44,3 +47,8 @@ function! <SID>StripTrailingWhitespaces()
     call cursor(l, c)
 endfunction
 map <leader>strip :call <SID>StripTrailingWhitespaces()<CR>
+
+" Enable filetype-specific indenting and plugins
+filetype plugin indent on 
+
+
