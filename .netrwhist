@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/jelle/Sites/Rails Playground/templater/test/unit'
-let g:netrw_dirhist_2='/Users/jelle/Sites/Rails Playground/templater/test'
-let g:netrw_dirhist_3='/Users/jelle/Sites/Rails Playground/templater/test/fixtures'
-let g:netrw_dirhist_4='/Users/jelle/Sites/Rails Playground/templater/test'
-let g:netrw_dirhist_5='/Users/jelle/Sites/Rails Playground/templater/test/functional'

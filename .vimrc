@@ -51,4 +51,14 @@ map <leader>strip :call <SID>StripTrailingWhitespaces()<CR>
 " Enable filetype-specific indenting and plugins
 filetype plugin indent on 
 
+" Remap the arrow keys so you can't use them
+nnoremap <Left> :echoe "Use h"<CR>
+nnoremap <Right> :echoe "Use l"<CR>
+nnoremap <Up> :echoe "Use k"<CR>
+nnoremap <Down> :echoe "Use j"<CR>
 
+" Window navigation
+nmap <C-J> <C-W><C-J>
+nmap <C-K> <C-W><C-K>
+nmap <C-H> <C-W><C-H>
+nmap <C-L> <C-W><C-L>
