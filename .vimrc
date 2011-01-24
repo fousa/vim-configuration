@@ -23,6 +23,8 @@ if has("autocmd")
   autocmd bufWritePost .vimrc source $MYVIMRC
 endif
 
+au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/plugins/yaml.vim
+
 let mapleader = ";"
 
 " Lusty file explorer shortcuts
