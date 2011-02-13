@@ -1,7 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/jelle/Sites/10to1/mediasquare/mediasquare'
-let g:netrw_dirhist_2='/Users/jelle/Sites/10to1/mediasquare/mediasquare/spec'
-let g:netrw_dirhist_3='/Users/jelle/Sites/10to1/mediasquare/mediasquare'
-let g:netrw_dirhist_4='/Users/jelle/Sites/10to1/mediasquare/mediasquare/test'
-let g:netrw_dirhist_5='/Users/jelle/Sites/10to1/mediasquare/mediasquare/app/views/layouts'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/jelle/Sites/10to1/10to1.github.com/_posts'

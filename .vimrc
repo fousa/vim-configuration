@@ -1,5 +1,5 @@
 " Not VI compatible
-set nocompatible
+"set nocompatible
 
 " Editor settings
 set number
@@ -14,7 +14,12 @@ highlight SpecialKey guifg=#7A7A90
 set softtabstop=2
 set shiftwidth=2
 set tabstop=2
-set expandtab
+set autoindent
+set noexpandtab
+
+:silent exe "g:flog_enable"
+:silent exe "g:flog_medium_limit=15"
+:silent exe "g:flog_high_limit=30"
 
 " Highlight search results
 set hlsearch
